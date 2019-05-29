@@ -3,10 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Kyle Alexander Cox</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Creepster|Cutive+Mono|Eater|Faster+One|Press+Start+2P&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Coming+Soon|Creepster|Cutive+Mono|Eater|Faster+One|Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -14,36 +18,58 @@
     <header id="masthead">
         <div class="container">
             <a href="index.html" id="logo">Kyle Alexander Cox</a>
-            <nav>
+            <!--- <nav>
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
+            </nav> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!-- <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html">About</a>
+                        <a class="nav-item nav-link" href="index.html">Portfolio</a>
+                        <a class="nav-item nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
 
     <div id="main-container" class="container">
         <section class="main-section">
-            <h1>Contact</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Contact</h1>
+                    </div>
 
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Enter Name Here" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Enter Message Here"
-                            required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit">
-            </form>
+                </div>
+                <form>
+                    <ul>
+                        <div class="form-group">
+                            <li><label for="enterName">Name</label>
+                                <textarea class="form-control" id="enterName" placeholder="John Smith"
+                                    rows="1"></textarea>
+                            </li>
+                        </div>
+                        <div class="form-group">
+                            <li><label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </li>
+                        </div>
+                        <div class="form-group">
+                            <li><label for="enterMessage">Message</label>
+                            </li>
+                            <textarea class="form-control" id="enterName" rows="6"></textarea>
+                        </div>
+                    </ul>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit">
 
         </section>
     </div>
