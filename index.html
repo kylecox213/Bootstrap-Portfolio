@@ -4,93 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Coming+Soon|Creepster|Cutive+Mono|Eater|Faster+One|Press+Start+2P&display=swap" rel="stylesheet">
+    <title>About | Kyle Cox</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cutive|Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <title>Bootstrap Portfolio</title>
 </head>
 
 <body>
 
     <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Kyle Alexander Cox</a>
-            <!---  <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a> 
-            </nav> --->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <!-- <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button> -->
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Kyle Alexander Cox</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Student Portfolio
+                </span>
+            </div>
+        </nav>
     </header>
 
-    <div id="main-container" class="container">
-        <section class="main-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>About Me</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
 
-            <div class="container">
+                <div class="jumbotron">
+                    <img src="assets/images/grasscreature.jpg" class=" creature rounded float-right"
+                        alt="grass creature">
+
+                    <p>I am married to a lovely Argentinean girl and have two children, ages four and one. I am
+                        a graduate from Virginia
+                        Commonwealth University with a Bachelor's in Psychology and Sociology. Other than
+                        spending time with my family,
+                        I enjoy playing the drums, guitar and writing music. I also throughly enjoy fishing,
+                        camping and hiking. My newest passion now includes coding and software programming. I have been
+                        studying
+                        software programming and networking
+                        for nearly three years.
+                    </p>
+
+                    <p>I am currently employed as a software programmer and business
+                    analyst at Logistics
+                    Solutions Group Inc. In the next five years, I aspire to become the lead developer for
+                    upcoming projects.
+                    Within the next ten years, my goal is to launch my own software programming business.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4 creatureCol">
                 <div class="row">
-                    <div class="col-12">
-                        <h1>About Me</h1>
-
-                        <img src="assets\images\meinasuit.jpg" class="auth-image" alt="Alex Cox">
-
-                        <div class="col-9">
-                            <p>I am married to a lovely Argentinean girl and have two children, ages four and one. I am
-                                a graduate from Virginia
-                                Commonwealth University with a Bachelor's in Psychology and Sociology. Other than
-                                spending time with my family,
-                                I enjoy playing the drums, guitar and writing music. I also throughly enjoy fishing,
-                                camping and hiking.
-                            </p>
-                            <p> My newest passion now includes coding and software programming. I have been studying
-                                software programming and networking
-                                for nearly three years. I am currently employed as a software programmer and business
-                                analyst at Logistics
-                                Solutions Group Inc. In the next five years, I aspire to become the lead developer for
-                                upcoming projects.
-                                Within the next ten years, my goal is to launch my own software programming business.
-                            </p>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12">
-                                <p> My interest in attending the University of Richmond Coding Bootcamp is to expand my
-                                    understanding of software
-                                    programming, to acquire the skills to become an efficient full-stack software
-                                    programmer and to network and share
-                                    this unique learning experience with passionate and like-minded classmates and
-                                    staff.
-                                </p>
-                            </div>
+                    <div class="col-3">
+                    </div>
+                    <div class="row">
+                        <div class="col-9 creature">
+                            <img src="assets/images/creature.jpg" id="creature" alt="creature">
                         </div>
                     </div>
                 </div>
             </div>
-
-        </section>
+        </div>
     </div>
 
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
-    </footer>
+    <nav class="navbar fixed-bottom navbar-expand lg navbar-dark bg-dark">
+        <div class="nav-item" style="color: white; margin: auto;">Copyright</div>
+    </nav>
 
 </body>
 

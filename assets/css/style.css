@@ -1,234 +1,25 @@
+.col-9 creature {
+  position: absolute;
+}
+
+.masthead {
+  padding-bottom: 10px;
+}
+
+.work {
+  width: 340px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  z-index: 50px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
 body {
-    font-family: 'Cutive Mono', monospace;
-    font-size: 22px;
-    line-height: 38px;
-    background:
-    radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
-    radial-gradient(at 100% 100%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),#8a3;
-    background-size: 20px 20px;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* general */
-  
-  .container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-  }
-  
-  h1,
-  h2,
-  h3,
-  p {
-    margin-bottom: 20px;
-  }
-  
-  p:last-child {
-    margin-bottom: 0;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    font-family: 'Cutive Mono', monospace;
-    font-weight: 900;
-    color: #613;
-    font-size: 32px;
-  }
-  
-  h1 {
-    padding-bottom: 20px;
-    font-size: 42px;
-    font-weight: bold;
-    line-height: 49px;
-    border-bottom: 2px solid #0e471c;
-  }
-  
-  h2,
-  h3 {
-    font-size: 22px;
-  }
-  
-  /* header */
-  
-  #masthead {
-    position: fixed;
-    left: -62px;
-    top: 0px;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: #613;
-    background: #60721eb7;
-    border-bottom: 2px solid #613;
-    height: 90px;
-    width: 1680px;
-  }
-  
-  #logo {
-    position: absolute;
-    left: 70px;
-    width: 350px;
-    height: 90px;
-    font-family: 'Cutive Mono', monospace;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 90px;
-    color: #999;
-    text-align: center;
-    text-decoration: none;
-    background: #613;
-  }
-  
-  nav {
-    float: right;
-    margin-top: 25px;
-  }
-  
-  nav a {
-    display: inline-block;
-    padding-left: 15px;
-    margin-left: 15px;
-    line-height: 18px;
-    color: rgb(43, 41, 41);
-    font-weight: bolder;
-    font-size: 26px;
-    text-decoration: none;
-    border-left: 1px solid rgb(43, 41, 41);
-  }
-  
-  nav a:first-child {
-    border-left: 0 none;
-  }
-  
-  /* footer */
-  
-  footer {
-    position: absolute;
-    bottom: -393px;
-    left: 0px;
-    padding: 10px 0 px 0;
-    clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
-    border-top: 4px solid #613;
-    border-right: 4px solid #613;
-    height: 50px;
-    width: 1519px;
-  }
-  
-  h3, h2 {
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    line-height: 22px;
-    border-bottom: 2px solid #eeeeee;
-  }
-  
-  /* main */
-  
-  #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-    margin-left: 0px;
-  }
-  
-  .main-section {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 30px;
-    margin: 0 0 40px;
-    background: rgb(103, 129, 36);
-    border: 3px solid #613;
-  }
-  
-  /* portfolio page */
-  
-  .work {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
-  }
-  
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  }
-  
-  .work h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-  }
-  
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
-  
-  /* contact page */
-  
-  #contact-form ul {
-    margin-bottom: 20px;
-  }
-  
-  #contact-form li {
-    margin-bottom: 10px;
-  }
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    display: block;
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-  }
+  background-color: rgba(174, 177, 180, 0.877)
+}
