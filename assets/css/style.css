@@ -2,6 +2,11 @@
   position: absolute;
 }
 
+.jumbotron {
+  border-style: solid;
+  border-color: chartreuse;
+}
+
 .masthead {
   padding-bottom: 10px;
 }
@@ -21,5 +26,34 @@ h1 {
 }
 
 body {
-  background-color: rgba(174, 177, 180, 0.877)
+  background-color: rgba(87, 133, 97, 0.877)
+}
+
+textarea.form-control {
+  background-color: chartreuse;
+  border-style: solid;
+  border-color: rgb(58, 197, 39)
+}
+
+.form-control {
+  background-color: chartreuse;
+  border-style: solid;
+  border-color: rgb(58, 197, 39)
+
+}
+
+.title {
+  text-align: center;
+  background-color: chartreuse;
+  border-style: solid;
+  border-color: rgb(58, 197, 39)
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: chartreuse;
+}
+
+#megawesome {
+  position: relative;
+  left: 70px;
 }
