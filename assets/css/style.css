@@ -13,38 +13,46 @@
 
 .work {
   width: 340px;
-  height: 300px;
+  height: 290px;
   margin-bottom: 40px;
+
 }
 
 h3 {
-  z-index: 50px;
+  z-index: 50px; 
 }
 
 h1 {
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 body {
-  background-color: rgba(87, 133, 97, 0.877)
+  background-color: rgba(87, 133, 97, 0.877);
+  background-image: url(../images/seemless.jpg) 
+
 }
 
 textarea.form-control {
-  background-color: chartreuse;
+  background-color: olivedrab;
   border-style: solid;
   border-color: rgb(58, 197, 39)
 }
 
 .form-control {
-  background-color: chartreuse;
+  background-color: olivedrab;
   border-style: solid;
   border-color: rgb(58, 197, 39)
+}
 
+.form-control:hover {
+  background-color: chartreuse;
 }
 
 .title {
   text-align: center;
-  background-color: chartreuse;
+  background-color: olivedrab;
+
   border-style: solid;
   border-color: rgb(58, 197, 39)
 }
@@ -53,7 +61,18 @@ textarea.form-control {
   color: chartreuse;
 }
 
+label {
+  font-weight: bolder;
+  font-size: 28px;
+}
+
 #megawesome {
   position: relative;
   left: 70px;
+}
+
+#spaceskull {
+  position: relative;
+  top: 92px;
+  left: 15px;
 }
