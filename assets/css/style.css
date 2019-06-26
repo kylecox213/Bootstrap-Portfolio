@@ -5,6 +5,7 @@
 .jumbotron {
   border-style: solid;
   border-color: chartreuse;
+  background-color: rgb(200, 252, 142)
 }
 
 .masthead {
@@ -34,13 +35,13 @@ body {
 }
 
 textarea.form-control {
-  background-color: olivedrab;
+  background-color: rgb(200, 252, 142);
   border-style: solid;
   border-color: rgb(58, 197, 39)
 }
 
 .form-control {
-  background-color: olivedrab;
+  background-color: rgb(200, 252, 142);
   border-style: solid;
   border-color: rgb(58, 197, 39)
 }
@@ -76,3 +77,5 @@ label {
   top: 92px;
   left: 15px;
 }
+
+
